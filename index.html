@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<script type=”text/javascript” src=https://code.responsivevoice.org/responsivevoice.js></script>
+
+<h1><u>Text to Speech Converter</u></h1>
+<h2><u>Web Development Project</u></h2>
+<h1>Made by<u> Prashant Kumar Rai</u></h1>
+
+<textarea id="txt" cols=”45” rows=”20”></textarea>
+<input onclick="speakText()"" type="button" value="submit">
+
+<script>
+            function speakText(){
+var text = document.getElementById('txt').value;
+responsiveVoice.speak(text);
+
+            }
+</script>
+</body>
+</html>
+
